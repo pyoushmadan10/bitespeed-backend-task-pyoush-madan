@@ -1,4 +1,4 @@
-import { PrismaClient, Contact, LinkPrecedence } from '../generated/prisma';
+import { PrismaClient, Contact, LinkPrecedence } from '@prisma/client';
 
 const prisma = new PrismaClient();
 
