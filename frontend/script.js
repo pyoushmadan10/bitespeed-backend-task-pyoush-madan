@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const errorMessage = document.getElementById('error-message');
 
     // The URL of your hosted backend service
-    const apiUrl = 'http://localhost:3000/identify';
+    const apiUrl = 'https://bitespeed-backend-task-pyoush-madan.onrender.com/identify';
 
     form.addEventListener('submit', async (event) => {
         event.preventDefault(); // Prevent the default form submission
